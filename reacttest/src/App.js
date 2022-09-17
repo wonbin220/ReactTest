@@ -8,8 +8,8 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Routes>
-          <Route path="/" elements={<PageTemplate body={"Main"} />} />
-          <Route path="/Main" elements={<PageTemplate body={"Main"} />} />
+          <Route path="/" element={<PageTemplate body={"Main"} />} />
+          <Route path="/Main" element={<PageTemplate body={"Main"} />} />
         </Routes>
       </BrowserRouter>
     );
