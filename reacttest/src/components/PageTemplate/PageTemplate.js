@@ -7,7 +7,7 @@ import Main from "../Main/Main";
 
 function PageTemplate(props) {
   const { body } = props;
-  let page = null;
+  let page;
   switch (body) {
     case "/":
       page = <Main />;
