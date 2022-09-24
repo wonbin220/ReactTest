@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "bootstrap": "^5.2.1",
     "mobx": "^6.6.2",
-    "mobx-react": "^7.5.3"
+    "mobx-react": "^7.5.3",
+    "reactstrap": "^9.1.4"
   }
 }
