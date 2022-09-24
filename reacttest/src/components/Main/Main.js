@@ -1,11 +1,15 @@
 import React from "react";
-
+import Container from "./Containers";
+import LeftBox from "./LeftBox";
+import { Row } from "reactstrap";
+import "./Main.css";
 function Main() {
   return (
-    <div>
-      <h1>Main</h1>
-      <p>Main 화면표시</p>
-    </div>
+    <Container>
+      <LeftBox />
+      <div className="main-lb-box-wrapper"></div>
+      <Row></Row>
+    </Container>
   );
 }
 

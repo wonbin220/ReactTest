@@ -1,0 +1,24 @@
+.main-box {
+  width: 1920px;
+  height: 963px;
+  background: #c7c2c2;
+  text-align: center;
+}
+.main-wrapper {
+  width: auto;
+  height: 549px;
+  margin-top: 115px;
+  display: inline-block;
+
+  border-radius: 20px;
+  text-align: center;
+}
+
+.main-lt-box {
+  width: 801px;
+  height: 356px;
+
+  box-shadow: 8px 2px 62px #1f24301a;
+  text-align: left;
+  border-radius: 20px;
+}

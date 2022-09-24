@@ -7,17 +7,12 @@ function Footer() {
   const FaxTelText = "Fax : 044-330-2357 Tel : 044-330-2380";
   const CopyrightText = "Copyright \u24D2 2020 KOMSA. All rights Reserved.";
 
-  return React.createElement(
-    "div",
-    { className: "footer-box" },
-    React.createElement(
-      "p",
-      null,
-      AdressText,
-      React.createElement("br", null),
-      FaxTelText
-    ),
-    React.createElement("p", null, CopyrightText)
+  return (
+    <div className="footer-box">
+      <p className="footerText">{AdressText}</p>
+      <p>{FaxTelText}</p>
+      <p>{CopyrightText}</p>
+    </div>
   );
 }
 
