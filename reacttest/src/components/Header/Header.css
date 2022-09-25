@@ -1,0 +1,15 @@
+.header {
+  width: 1920px;
+  height: 130px;
+  background: rgb(131, 128, 128);
+}
+.logo {
+  border: 1px solid #ccc;
+  width: 30px;
+  height: 30px;
+}
+.button {
+  border: 1px solid #ccc;
+  width: 400px;
+  height: 30px;
+}
