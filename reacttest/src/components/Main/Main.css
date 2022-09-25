@@ -9,16 +9,46 @@
   height: 549px;
   margin-top: 115px;
   display: inline-block;
-
   border-radius: 20px;
   text-align: center;
 }
-
+.main-left-group.row {
+  display: flex;
+}
+.main-left-group .col:nth-child(1) {
+  margin-right: 30px;
+}
 .main-lt-box {
   width: 801px;
   height: 356px;
-
   box-shadow: 8px 2px 62px #1f24301a;
+  background: #fff;
   text-align: left;
+  border-radius: 20px;
+}
+.main-lb-box-wrapper {
+  display: flex;
+}
+.main-lb-box-wrapper span {
+  width: 246px;
+  height: 160px;
+  margin-top: 33px;
+  margin-right: 31px;
+  background: #ffffff;
+  box-shadow: 8px 2px 62px #2233591a;
+  border-radius: 20px;
+}
+.main-r-box-cctv {
+  width: 306px;
+  height: 200px;
+  background: #ffffff;
+  margin-bottom: 32px;
+  border-radius: 20px;
+}
+
+.main-r-box-gps {
+  width: 306px;
+  height: 84px;
+  background: #d9dde2;
   border-radius: 20px;
 }

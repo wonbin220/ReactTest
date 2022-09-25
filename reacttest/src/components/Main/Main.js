@@ -7,7 +7,11 @@ function Main() {
   return (
     <Container>
       <LeftBox />
-      <div className="main-lb-box-wrapper"></div>
+      <div className="main-lb-box-wrapper">
+        <span>sensor</span>
+        <span>sensor</span>
+        <span>sensor</span>
+      </div>
       <Row></Row>
     </Container>
   );
